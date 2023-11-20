@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+/* ШАПКА */
+.navigation_header {
+    display: flex;
+    justify-content: space-between;
+}
+.pizzeria_name {
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #2D1312;
+}
+.navi_link {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
