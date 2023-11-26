@@ -24,6 +24,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 .pizzeria_name {
@@ -65,8 +67,6 @@ a {
     padding: 1% 2%;
     border-radius: 12px;
     transition: 0.4s;
-    position: relative;
-    z-index: 1;
 }
 
 .header button:hover {
