@@ -137,7 +137,10 @@ a {
     padding: 5%;
 }
 
-.menu h2 {
+.menu h2,
+.about_us h2,
+.pizza_discounts h2,
+.delivery h2 {
     color: #2D1312;
     font-family: ABeeZee;
     font-size: 64px;
@@ -252,14 +255,6 @@ a {
     padding: 0 15% 10% 10%;
 }
 
-.about_us h2 {
-    color: #2D1312;
-    font-family: ABeeZee;
-    font-size: 64px;
-    font-style: italic;
-    font-weight: 400;
-}
-
 .about_us hr {
     margin: 5% 0;
     border: 1px solid black;
@@ -322,15 +317,8 @@ a {
     padding: 4% 10%;
 }
 
-.pizza_discounts h2 {
-    color: #2D1312;
-    font-family: ABeeZee;
-    font-size: 64px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-.pizza_discounts hr {
+.pizza_discounts hr,
+.delivery hr {
     border: 1px solid black;
     margin: 2% 0 4% 0;
     width: 50%;
@@ -392,3 +380,82 @@ a {
     left: 13%;
     transform: rotate(180deg);
 }
+
+/* ДОСТАВКА */
+.sec_delivery {
+    position: relative;
+}
+
+.delivery {
+    display: flex;
+    flex-direction: column;
+    padding: 4% 10%;
+}
+
+.delivery_blocks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.delivery_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+    background-color: #EEE7DA;
+    width: 290px;
+    height: 280px;
+    border-radius: 35px;
+    margin-top: 5%;
+}
+
+.delivery_block h3 {
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10%;
+}
+
+.delivery_block p {
+    color: #000;
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#db_1,
+#db_2,
+#db_3 {
+    position: absolute;
+    bottom: 85%;
+}
+
+#db_1 {
+    width: 90px;
+    height: 100px;
+}
+
+#db_2 {
+    width: 160px;
+    height: 100px;
+}
+
+#db_3 {
+    width: 105px;
+    height: 100px;
+}
+
+#del_deco {
+    position: absolute;
+    z-index: 0;
+    top: 10%;
+    left: 0;
+    width: 273px;
+    height: 300px;
+}
+
