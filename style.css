@@ -195,7 +195,7 @@ a {
 .menu_first_row,
 .menu_second_row {
     display: flex;
-    width: 80%;
+    width: 100%;
     margin-bottom: 2%;
     justify-content: space-evenly;
 }
@@ -220,7 +220,7 @@ a {
 }
 
 .pizza_card:hover {
-    
+
     outline: 3px solid #F1D9C8;
     background: rgba(255, 255, 255, 0.00);
     box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.25);
@@ -244,3 +244,68 @@ a {
     line-height: 16px;
 }
 
+/* О НАС */
+.about_us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15% 10% 10%;
+}
+
+.about_us h2 {
+    color: #2D1312;
+    font-family: ABeeZee;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.about_us hr {
+    margin: 5% 0;
+    border: 1px solid black;
+    width: 900px;
+}
+
+.about_us p {
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 151%;
+}
+
+.about_us_photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 660px;
+}
+
+.about_us img {
+    width: 470px;
+    height: 313px;
+    border-radius: 15px;
+}
+
+.sec_about {
+    position: relative;
+}
+
+#deco_about {
+    position: absolute;
+    z-index: -1;
+    bottom: 5%;
+    left: 0;
+    width: 420px;
+    height: 688px;
+}
+
+#deco_about2 {
+    position: absolute;
+    z-index: -1;
+    bottom: 35%;
+    right: 0;
+    width: 418px;
+    height: 512px;
+}
