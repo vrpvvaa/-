@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ШАПКА НАВИГАЦИЯ */
+.header {
+    padding: 2% 5% 0 5%;
+    background-color: #F2ECE2;
+}
+
+#deco_top {
+    position: absolute;
+    z-index: 0;
+    left: 14%;
+    top: 0;
+}
+
+.navigation_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.pizzeria_name {
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #2D1312;
+}
+
+.navi_link {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.navi_link a {
+    color: #2D1312;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.navi_link a:hover {
+    text-decoration: underline;
+    text-underline-offset: 25%;
+}
+
+.header button {
+    color: #2D1312;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #00000000;
+    padding: 1% 2%;
+    border: 1px solid #2D1312;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+
+.header button:hover {
+    background-color: #2D1312;
+    color: white;
+}
+
+/* БАННЕР */
+.pizza_banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 0 0 0;
+}
+
+.pizza_banner h2 {
+    color: #2D1312;
+    font-family: ABeeZee;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 2.56px;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.pizza_position {
+    position: relative;
+
+}
+
+#leaf_zero {
+    position: absolute;
+    left: 25%;
+    bottom: 40%;
+    z-index: 0;
+}
+
+#red_bg {
+    position: relative;
+    z-index: 1;
+    bottom: -4px;
+}
+
+#circle {
+    position: absolute;
+    bottom: 0;
+    left: 9%;
+    z-index: 2;
+
+}
+
+#pizza_pos {
+    position: absolute;
+    bottom: 0;
+    left: 12%;
+    z-index: 3;
+
+}
+
+#leaf_two {
+    position: absolute;
+    bottom: 40%;
+    left: 100%;
+    z-index: 4;
+}
+
+/* ПИЦЦА */
+.pizza,
+.combos,
+.drinks,
+.desserts {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 8%;
+
+}
+
+.pizza_header {}
+
+.pizza h2,
+.combos h2,
+.drinks h2,
+.desserts h2 {
+    color: #2D1312;
+    font-family: ABeeZee;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.pizza hr,
+.combos hr,
+.drinks hr,
+.desserts hr {
+    border: 1px solid black;
+    width: 50%;
+    margin: 2% 0;
+}
+
+.menu_pizzas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu_first_row,
+.menu_second_row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+}
+
+.menu_first_row img,
+.menu_second_row img {
+    width: 260px;
+    height: 260px;
+}
+
+.pizza_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 380px;
+    border-radius: 35px;
+    outline: 0px solid #F1D9C8;
+    outline-offset: -2px;
+    transition: 0.4s;
+}
+
+.pizza_card:hover {
+
+    outline: 3px solid #F1D9C8;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pizza_card h3 {
+    color: #2D1312;
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.pizza_card p {
+    color: #2D1312;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+/* КОМБО */
+#sec_combo {
+    position: relative;
+}
+
+.menu_combo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+
+}
+
+.menu_combo img {
+    width: 345px;
+    height: 320px;
+}
+
+.mc_first_row,
+.mc_second_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mc1r {
+    margin-bottom: 5%;
+}
+
+.combo_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    transition: 0.4s;
+    padding: 1%;
+    border-radius: 15px;
+    outline: 3px solid #f1d9c800;
+}
+
+.combo_card:hover {
+    outline: 3px solid #F1D9C8;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cc_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: space-evenly;
+    width: 240px;
+    height: 200px;
+}
+
+.combos h3 {
+    color: #000;
+    text-align: center;
+    font-family: "Russo One";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 122%;
+}
+
+.combo_descr {
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+}
+
+.combo_price {
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+#comb0 {
+    background-color: #F0E9DD;
+}
+
+#combo_deco {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 15%;
+    transform: rotate(180deg);
+
+}
+
+/* НАПИТКИ */
+.menu_drinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drinks_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drinks h3 {
+    color: #000;
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 145%;
+}
+
+.drinks p {
+    color: #000;
+    font-family: Russo One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.drinks_card {
+    padding: 1%;
+    outline: 3px solid rgba(0, 0, 0, 0);
+    outline-offset: -3px;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.drinks_card img {
+    width: 145px;
+    height: 320px;
+}
+
+.drinks_card:hover {
+    outline: 3px solid #F1D9C8;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+/* ДЕСЕРТЫ */
+.desserts {
+    background-color: #F1EBE2;
+
+}
+
+.menu_desserts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.md_first_row,
+.md_second_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#md1 {
+    margin-bottom: 5%;
+}
+
+.dessert_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    outline: 3px solid rgba(0, 0, 0, 0);
+    outline-offset: -3px;
+    border-radius: 15px;
+    width: 300px;
+    height: 500px;
+    transition: 0.4s;
+}
+
+.dessert_card:hover {
+    outline: 3px solid #F1D9C8;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dessert_card img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 5%;
+}
+
+#ice_cream {
+    width: 240px;
+}
+
+.dessert_card h3 {
+    color: #000;
+    text-align: center;
+    font-family: "Russo One";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.dessert_descr {
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.dessert_price {
+    color: #000;
+    font-family: "Russo One";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* ФУТЕР */
+.sec_footer{
+    position: relative;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    padding: 2% 5%;
+}
+
+#footer_logo {
+    color: #2D1312;
+    font-family: "Russo One";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer_line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2% 0;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer_links a {
+    color: #2D1312;
+    transition: 0.4s;
+}
+
+.footer_links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 25%;
+}
+
+.footer_number {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer_number span {
+    text-decoration: underline;
+    text-underline-offset: 25%;
+    margin-left: 10%;
+}
+
+#deco_footer {
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 10%;
+
+}
