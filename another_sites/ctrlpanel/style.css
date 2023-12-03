@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ШАПКА НАВИГАЦИЯ */
+.header {
+    padding: 2% 5% 0 5%;
+    background-color: #F2ECE2;
+}
+
+#deco_top {
+    position: absolute;
+    z-index: 0;
+    left: 14%;
+    top: 0;
+}
+
+.navigation_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.pizzeria_name {
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #2D1312;
+}
+
+.navi_link {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.navi_link a {
+    color: #2D1312;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.navi_link a:hover {
+    text-decoration: underline;
+    text-underline-offset: 25%;
+}
+
+.header button {
+    color: #2D1312;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #00000000;
+    padding: 1% 2%;
+    border: 1px solid #2D1312;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+
+.header button:hover {
+    background-color: #2D1312;
+    color: white;
+}
+
+/* ДОСТАВКА */
+.sec_delivery {
+    position: relative;
+}
+
+.delivery {
+    display: flex;
+    flex-direction: column;
+    padding: 4% 10%;
+    background-color: #F2ECE2;
+    align-items: center;
+}
+
+.delivery h2 {
+    color: #2D1312;
+    font-family: ABeeZee;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+.delivery hr {
+    border: 1px solid black;
+    margin: 2% 0 4% 0;
+    width: 50%;
+}
+
+.delivery_blocks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.delivery_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+    background-color: #EECAB0;
+    width: 290px;
+    height: 280px;
+    border-radius: 35px;
+    margin-top: 5%;
+}
+
+.delivery_block h3 {
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10%;
+}
+
+.delivery_block p {
+    color: #000;
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+ul {
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+li {
+    list-style-type: "– ";
+}
+
+#db_1,
+#db_2,
+#db_3 {
+    position: absolute;
+    bottom: 85%;
+}
+
+#db_1 {
+    width: 90px;
+    height: 100px;
+}
+
+#db_2 {
+    width: 160px;
+    height: 100px;
+}
+
+#db_3 {
+    width: 105px;
+    height: 100px;
+}
+
+#del_deco {
+    position: absolute;
+    z-index: 0;
+    top: 10%;
+    left: 0;
+    width: 273px;
+    height: 300px;
+}
+
+.menu_navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    padding: 10% 0;
+}
+
+.menu_navi button {
+    width: 130px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #2D1312;
+    color: #2D1312;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    transition: 0.5s;
+}
+
+.menu_navi button:hover {
+    background-color: #2D1312;
+    color: white;
+}
+
+#del_top {
+    position: absolute;
+    bottom: -145px;
+    left: 10%;
+    transform: rotate(180deg);
+}
+
+/* ФУТЕР */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 5%;
+    background-color: #F0E9DD;
+}
+
+#footer_logo {
+    color: #2D1312;
+    font-family: "Russo One";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer_line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2% 0;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer_links a {
+    color: #2D1312;
+    transition: 0.4s;
+}
+
+.footer_links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 25%;
+}
+
+.footer_number {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer_number span {
+    text-decoration: underline;
+    text-underline-offset: 25%;
+    margin-left: 10%;
+}
