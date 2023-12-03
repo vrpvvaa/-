@@ -212,7 +212,7 @@ li {
 #del_top {
     position: absolute;
     bottom: -145px;
-    left: 10%;
+    left: 14%;
     transform: rotate(180deg);
 }
 
