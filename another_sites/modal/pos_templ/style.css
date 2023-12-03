@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* МОДАЛЬНОЕ */
+.container {}
+
+.modal {
+    display: flex;
+    justify-content: end;
+    width: 1160px;
+    height: 700px;
+    border-radius: 80px;
+    background-color: #EEE6D9;
+    overflow: hidden;
+    margin: 5% auto;
+    outline: 5px solid #2D1312;
+    outline-offset: 10px;
+
+}
+
+.modal img {
+    transform: translateX(-10%);
+    width: 721px;
+    height: 711px;
+    box-shadow: 0px 0px 0px 0px black;
+}
+
+.modal_text {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    margin-right: 5%;
+    margin-top: 2%;
+    align-items: flex-end;
+}
+
+.modal_header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.modal_header h2 {
+    color: #2D1312;
+    font-family: ABeeZee;
+    text-align: center;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 2.56px;
+}
+
+.modal_header p {
+    color: #000;
+    font-family: ABeeZee;
+    text-align: right;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.84px;
+}
+
+hr {
+    margin: 0;
+    border: 1px solid black;
+    width: 100%;
+}
+
+#hr_2nd {
+    width: 80%;
+    margin: 5% 0;
+}
+
+.modal_descr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 8% 0 10% 0;
+
+}
+
+.descr {
+    color: #000;
+    text-align: right;
+    font-family: ABeeZee;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 142%;
+    letter-spacing: 1.32px;
+    width: 630px;
+    height: 180px;
+    margin-bottom: 10%;
+}
+
+.price {
+    color: #000;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44%;
+}
+
+.button_line {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+#button_1st {
+    display: flex;
+    width: 261px;
+    height: 95px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px solid #2D1312;
+    background-color: #ffffff00;
+    color: #2D1312;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40%;
+}
+
+#button_2nd {
+    display: flex;
+    width: 255px;
+    height: 95px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #2D1312;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40%;
+}
