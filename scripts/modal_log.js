@@ -4,9 +4,9 @@ function showLog(e) {
     e.preventDefault();
     let log = document.getElementById("inputs2");
     inputs2.style.display = "flex";
-    let modal = document.getElementById("modal");
-    modal.style.height = "470px";
-    modal.style.transition = "1s";
+    let modal = document.getElementById("modal_log");
+    modal_log.style.height = "470px";
+    modal_log.style.transition = "1s";
     let reg = document.getElementById("inputs");
     inputs.style.display = "none";
     let logB = document.getElementById("log");
@@ -25,9 +25,9 @@ function showReg(e) {
     inputs.style.display = "flex";
     let log3 = document.getElementById("inputs2");
     inputs2.style.display = "none";
-    let modal2 = document.getElementById("modal");
-    modal.style.height = "600px";
-    modal.style.transition = "0.1s";
+    let modal2 = document.getElementById("modal_log");
+    modal_log.style.height = "600px";
+    modal_log.style.transition = "0.1s";
     let reg5 = document.getElementById("reg");
     reg.style.color = "black";
     reg.style.fontSize = "40px"
