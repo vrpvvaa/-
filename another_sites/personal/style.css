@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none
+}
+
+/* ШАПКА НАВИГАЦИЯ */
+.header {
+    padding: 2% 5% 0 5%;
+    background-color: #F2ECE2;
+}
+
+#deco_top {
+    position: absolute;
+    z-index: 1;
+    left: 14%;
+    top: 0;
+}
+
+.navigation_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.pizzeria_name {
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #2D1312;
+}
+
+.navi_link {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.navi_link a {
+    color: #2D1312;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.navi_link a:hover {
+    text-decoration: underline;
+    text-underline-offset: 25%;
+}
+
+.header button {
+    color: #2D1312;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #00000000;
+    padding: 1% 2%;
+    border: 1px solid #2D1312;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+
+.header button:hover {
+    background-color: #2D1312;
+    color: white;
+}
+
+/* КАБИНЕТ */
+.personal {
+    display: flex;
+    position: relative;
+    z-index: 0;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2ECE2;
+}
+
+.personal_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2D1312;
+    font-family: ABeeZee;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 2.56px;
+    margin: 3% 0;
+
+}
+
+.personal_header hr {
+    border: 1px solid #2d131280;
+    margin: auto;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.personal_header img {
+    position: absolute;
+    width: 130px;
+    height: 166px;
+    left: 22%;
+    top: 0%;
+}
+
+.personal_all {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 0 5% 0;
+}
+
+.personal_all h3 {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44%;
+    width: 85%;
+    justify-content: center;
+}
+
+.personal_all h3 img {
+    margin-right: 2%;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.data input {
+    height: 51px;
+    width: 85%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #D0C6B8;
+    margin-top: 5%;
+    padding: 0 0 0 5%;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.69);
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 80%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.iconH {
+    width: 40px;
+    height: 40px;
+}
+
+#iconHH {
+    width: 50px;
+    height: 40px;
+}
+
+/* ИСТОРИЯ ЗАКАЗОВ  */
+.cart_table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 878px;
+    height: 488px;
+    padding: 2% 1%;
+    border: 1px solid #746247;
+    border-radius: 24px;
+    background-color: #EBD1BB;
+    margin: 1% 0 2% 0;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+}
+
+.cart_table img {
+    width: 48px;
+    height: 48px;
+    padding: 2px 0;
+}
+
+.ordered_pos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    margin-bottom: 3%;
+}
+
+.position_cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.food_cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 1%;
+    width: 80%;
+    border-radius: 12px;
+    border: 1px solid #2D1312;
+    background-color: #EBD1BB;
+    transition: 0.4s;
+}
+
+.food_cart:hover {
+    background: rgb(204, 204, 204);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.314) 0%, rgba(235, 209, 187, 1) 70%);
+}
+
+.pic_name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+
+.delivery {
+    display: flex;
+    padding: 1% 2%;
+}
+
+.del_price {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cart_table hr {
+    border: 1px solid #2d131280;
+    margin: auto;
+    width: 97%;
+}
+
+.price_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 2%;
+}
+
+.price_button p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50%;
+}
+
+.price_button button {
+    display: flex;
+    width: 450px;
+    height: 60px;
+    padding: 12px 30px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #2D1312;
+    background: #2D1312;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50%;
+    transition: 0.4s;
+}
+
+.price_button button:hover {
+    background: #00000000;
+    color: #2D1312;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery_vars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order_history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.del_price {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80%;
+}
+
+#rez {
+    font-size: 16px;
+}
+
+/* ФУТЕР */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 5%;
+    background-color: #F0E9DD;
+}
+
+#footer_logo {
+    color: #2D1312;
+    font-family: "Russo One";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer_line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2% 0;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer_links a {
+    color: #2D1312;
+    transition: 0.4s;
+}
+
+.footer_links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 25%;
+}
+
+.footer_number {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer_number span {
+    text-decoration: underline;
+    text-underline-offset: 25%;
+    margin-left: 10%;
+}
