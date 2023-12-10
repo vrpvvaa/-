@@ -44,9 +44,9 @@ function showPersona(e) {
     let mail = document.getElementById("email").value;
     let pass = document.getElementById("pass").value;
     if (mail == "22@gmail.com" && pass == "22") {
-        window.open("another_sites/personal/personal.html", "_blank")
+        window.open("../../another_sites/personal/personal.html", "_blank")
     } else if (mail == "16@gmail.com" && pass == "16" ) {
-        window.open("another_sites/ctrlpanel/ctrlpanel.html", "_blank")
+        window.open("../../another_sites/ctrlpanel/ctrlpanel.html", "_blank")
     } else {
         alert("елизавета константиновна, пожалуйста, введите корректные данные :(")
 }
