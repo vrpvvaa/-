@@ -526,3 +526,168 @@ a {
     text-underline-offset: 25%;
     margin-left: 10%;
 }
+
+/* МОДАЛКА */
+.modal_all {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: -110%;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.42);
+    transition: 1s;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    background-color: #EEE6D9;
+    outline: 6px solid #2D1312;
+    outline-offset: 8px;
+    border-radius: 50px;
+    width: 28%;
+    height: 600px;
+    padding: 1% 0;
+}
+
+#deco1m {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+}
+
+#deco2m {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(180deg);
+    width: 150px;
+}
+
+.header_modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_modal button {
+    color: #000;
+    font-family: Russo One;
+    font-size: 40px;
+    font-weight: 400;
+    border: none;
+    background: none;
+}
+
+#log {
+    color: #0000004b;
+    font-size: 35px;
+    transition: 0.8s;
+}
+
+#reg {
+    transition: 1s;
+}
+
+.modal hr {
+    border: 1px solid black;
+    width: 55%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs, .inputs2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.inputs input,
+.inputs2 input {
+    text-align: center;
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-weight: 400;
+    width: 350px;
+    height: 75px;
+    border: none;
+    border-radius: 20px;
+}
+
+input::placeholder {
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#button_sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 66%;
+    margin: 0;
+    padding: 6% 6%;
+    border-radius: 15px;
+    outline: 1px solid #2d131200;
+    outline-offset: -1px;
+    border: none;
+    background-color: #2D1312;
+    margin-right: 2%;
+}
+
+#button_sub:hover {
+    outline: 1px solid #2D1312;
+    outline-offset: -1px;
+    color: #2D1312;
+    background: none;
+}
+
+
+#close_modal {
+    font-family: "Russo One";
+    font-size: 15px;
+    background: #2d13124e;
+    color: white;
+    border: none;
+    padding: 5% 5%;
+    border-radius: 15px;
+}
+
+#close_modal:hover {
+    background-color:#2d131289;
+    transition: 0.4s;
+}
+
+label {
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 4% 0;
+}
+
+.buttons_ML {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 80%;
+}
