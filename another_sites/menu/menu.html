@@ -252,7 +252,7 @@
         </div>
     </footer>
 
-    <div id="modal" class="container">
+    <div id="modalP" class="container">
         <div  class="modal">
             <img src="../../pics/menu/pizzas/pizza7.png" alt="Pos">
             <div class="modal_text">
@@ -320,19 +320,20 @@
         bun.addEventListener("click", showModalP);
         function showModalP(e) {
             e.preventDefault();
-            let modal = document.getElementById("modal");
-            modal.style.top = 0;
+            let modal = document.getElementById("modalP");
+            modalP.style.top = 0;
         }
         
         let bunny = document.getElementById("button_1st");
         bunny.addEventListener("click", closeModal);
         function closeModal(e) {
             e.preventDefault();
-            let modal = document.getElementById("modal");
-            modal.style.top = "-150%";
+            let modal = document.getElementById("modalP");
+            modalP.style.top = "-150%";
         }
     </script>
     <script src="../../scripts/modal_log.js"></script>
+    <script src="../../scripts/script_menu.js"></script>
 </body>
 
 </html>
