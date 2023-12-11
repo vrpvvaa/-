@@ -202,23 +202,23 @@
                 <button id="reg" type="button">Регистрация</button>
             </div>
             <hr>
-            <form method="get">
 
+            <form method="get">
                 <div id="inputs" class="inputs">
                     <label for="first_name">Имя</label>
-                    <input type="text" name="first_name" placeholder="Введите данные">
+                    <input id="first_name" type="text" name="user_name" placeholder="Введите данные">
                     <label for="phone">Телефон</label>
-                    <input type="tel" name="phone" placeholder="Введите данные"
+                    <input id="phone" type="tel" name="phone" placeholder="Введите данные"
                         pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
-                    <label for="user_email">Эл. почта</label>
-                    <input type="email" name="user_email" placeholder="Введите данные">
+                    <label for="email_reg">Эл. почта</label>
+                    <input id="email_reg" type="email" name="email_reg" placeholder="Введите данные">
                 </div>
 
-                <div id="inputs2" class="inputs2" style="display: none;">
-                    <label for="user_email">Эл. почта</label>
-                    <input id="email" type="user_email" name="email" placeholder="Введите данные">
+                <div id="inputs2" class="inputs2">
+                    <label for="email">Эл. почта</label>
+                    <input required id="email" type="email" name="email" placeholder="Введите данные">
                     <label for="pass">Пароль</label>
-                    <input id="pass" type="text" name="pass" placeholder="Введите данные">
+                    <input id="pass" type="password" name="password" placeholder="Введите данные">
                 </div>
                 <div class="buttons_ML">
                     <input id="button_sub" type="submit" value="Зарегистрироваться">
