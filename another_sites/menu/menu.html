@@ -33,7 +33,7 @@
                 </div>
             </nav>
             <div class="pizza_banner">
-                <h2>Из России. <br> С любовью для вас.</h2>
+                <h2>Меню <br> Папа Луи</h2>
                 <div class="pizza_position">
                     <img id="leaf_zero" src="../../pics/decos/deco_lv0.png" alt="Leaf Deco">
                     <img id="red_bg" src="../../pics/decos/deco_lv1.png" alt="Red BG">
@@ -53,13 +53,14 @@
                 </div>
                 <div class="menu_pizzas">
                     <div class="menu_first_row">
-                        <button id="showModal">
                         <div class="pizza_card">
+                            <button id="showModal">
                             <img src="../../pics/menu/pizzas/pizza1.png" alt="Pizza 1">
+                        </button>
                             <h3>Пицца Вегетарианская</h3>
                             <p>400 руб.</p>
+
                         </div>
-                    </button>
                         <div class="pizza_card">
                             <img src="../../pics/menu/pizzas/pizza2.png" alt="Pizza 2">
                             <h3>Пицца Грибная</h3>
@@ -291,12 +292,12 @@
 
                 <div id="inputs" class="inputs">
                     <label for="name">Имя</label>
-                    <input type="text" name="name" placeholder="Введите данные">
+                    <input id="name" type="text" name="name" placeholder="Введите данные">
                     <label for="phone">Телефон</label>
-                    <input type="tel" name="phone" placeholder="Введите данные"
+                    <input id="phone" type="tel" name="phone" placeholder="Введите данные"
                         pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
-                    <label for="email">Эл. почта</label>
-                    <input type="email" name="email" placeholder="Введите данные">
+                    <label for="email_reg">Эл. почта</label>
+                    <input id="email_reg" type="email" name="email" placeholder="Введите данные">
                 </div>
 
                 <div id="inputs2" class="inputs2" style="display: none;">

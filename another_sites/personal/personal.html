@@ -20,7 +20,9 @@
             <nav>
                 <img id="deco_top" src="../../pics/decos/deco_top.png" alt="Deco">
                 <div class="navigation_header">
-                    <a href="../../index.html" title="Вернуться на Главную страницу"><h1 class="pizzeria_name">ПАПА ЛУИ</h1></a>
+                    <a href="../../index.html" title="Вернуться на Главную страницу">
+                        <h1 class="pizzeria_name">ПАПА ЛУИ</h1>
+                    </a>
                     <div class="navi_link">
                         <a href="../../another_sites/menu/menu.html" title="Вернуться на Главную страницу">Меню</a>
                         <a href="#">О нас</a>
@@ -28,9 +30,10 @@
                         <a href="#">Доставка</a>
                         <a href="#">Контакты</a>
                     </div>
-                    <button type="button">Выход</button>
+                    <a id="exit" href="../../index.html">Выход</a>
                 </div>
             </nav>
+        </div>
     </header>
 
     <div class="personal">
@@ -44,18 +47,24 @@
 
                 <div class="profile">
                     <h3><img class="iconH" src="../../pics/icons/persona.png" alt="Icon">Данные профиля</h3>
-                    <input type="text" placeholder="Ваше имя">
-                    <input type="text" placeholder="Ваша фамилия">
-                    <input type="text" placeholder="Ваш номер телефона">
-                    <input type="text" placeholder="Ваша эл.почта">
+                    <form method="get">
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="text" placeholder="Ваша фамилия">
+                        <input type="tel" placeholder="Ваш номер телефона">
+                        <input type="email" placeholder="Ваша эл.почта">
+                    </form>
                 </div>
                 <div class="delivery_vars">
                     <h3><img class="iconH" src="../../pics/icons/map.png" alt="Icon">Адреса доставки</h3>
-                    <input type="text" placeholder="Новый адрес">
-                    <input type="text" placeholder="Новый адрес">
-                    <input type="text" placeholder="Новый адрес">
-                    <input type="text" placeholder="Новый адрес">
+                    <form method="get">
+                        <input type="text" placeholder="Новый адрес">
+                        <input type="text" placeholder="Новый адрес">
+                        <input type="text" placeholder="Новый адрес">
+                        <input type="text" placeholder="Новый адрес">
+                    </form>
                 </div>
+
+                <button id="save">Сохранить</button>
             </div>
 
             <div class="order_history">
@@ -120,7 +129,7 @@
                     <hr>
                     <div class="delivery">
                         <div class="del_price">
-                            <p id="rez" >Итого</p>
+                            <p class="rez">Итого</p>
                             <p>890 руб. </p>
                         </div>
                     </div>
@@ -187,12 +196,13 @@
                     <hr>
                     <div class="delivery">
                         <div class="del_price">
-                            <p id="rez" >Итого</p>
+                            <p class="rez">Итого</p>
                             <p>890 руб. </p>
                         </div>
                     </div>
                     <hr>
                 </div>
+                <button id="load">Загрузить еще</button>
             </div>
         </div>
     </div>
@@ -202,7 +212,7 @@
             <a id="footer_logo" href="../../index.html">ПАПА ЛУИ</a>
             <div class="footer_line">
                 <div class="footer_links">
-                    <a href="#">Меню</a>
+                    <a href="../menu/menu.html">Меню</a>
                     <a href="#">О нас</a>
                     <a href="#">Акции</a>
                     <a href="#">Доставка</a>

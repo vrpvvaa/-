@@ -579,7 +579,7 @@ a {
 
 .header_modal button {
     color: #000;
-    font-family: Russo One;
+    font-family: "Russo One";
     font-size: 40px;
     font-weight: 400;
     border: none;
@@ -614,6 +614,10 @@ form {
     padding: 5% 0;
 }
 
+.inputs2 {
+    display: none;
+}
+
 .inputs input,
 .inputs2 input {
     text-align: center;
@@ -624,7 +628,7 @@ form {
     width: 350px;
     height: 75px;
     border: none;
-    border-radius: 20px;
+    border-radius: 12px;
 }
 
 input::placeholder {
@@ -645,7 +649,7 @@ input::placeholder {
     line-height: 66%;
     margin: 0;
     padding: 6% 6%;
-    border-radius: 15px;
+    border-radius: 12px;
     outline: 1px solid #2d131200;
     outline-offset: -1px;
     border: none;
@@ -667,8 +671,8 @@ input::placeholder {
     background: #2d13124e;
     color: white;
     border: none;
-    padding: 5% 5%;
-    border-radius: 15px;
+    padding: 5%;
+    border-radius: 12px;
 }
 
 #close_modal:hover {

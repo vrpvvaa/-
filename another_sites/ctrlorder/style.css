@@ -57,7 +57,7 @@ a {
     text-underline-offset: 25%;
 }
 
-.header button {
+#exit {
     color: #2D1312;
     font-family: Roboto;
     font-size: 15px;
@@ -70,7 +70,7 @@ a {
     transition: 0.4s;
 }
 
-.header button:hover {
+#exit:hover {
     background-color: #2D1312;
     color: white;
 }
@@ -88,7 +88,6 @@ a {
 .table_cont h2 {
     display: flex;
     align-items: center;
-    margin: ;
     color: #2D1312;
     font-family: ABeeZee;
     font-size: 64px;
@@ -198,28 +197,6 @@ td {
 .slider button:hover {
     text-decoration: underline;
     text-underline-offset: 10px;
-}
-
-#save {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2% 5%;
-    border: 1px solid #2D1312;
-    border-radius: 19px;
-    background: #2D1312;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 50%;
-    transition: 0.4s;
-}
-
-#save:hover {
-    background: #eecab000;
-    color: #2D1312;
-
 }
 
 /* ФУТЕР */

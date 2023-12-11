@@ -656,7 +656,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    border-radius: 25px;
+    border-radius: 15px;
     border: 1px solid #2D1312;
     background-color: #ffffff00;
     color: #2D1312;
@@ -665,12 +665,12 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: 40%;
+    transition: 0.4s;
 }
 
 #button_1st:hover {
     background: #2D1312;
     color: #ffffff;
-    transition: 0.4s;
 }
 
 #button_2nd {
@@ -680,7 +680,8 @@ a {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    border-radius: 25px;
+    border: 1px solid #2D1312;
+    border-radius: 15px;
     background: #2D1312;
     color: #ffffff;
     font-family: Roboto;
@@ -688,13 +689,13 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: 40%;
+    transition: 0.4s;
 }
 
 #button_2nd:hover {
     border: 1px solid #2D1312;
     background-color: #ffffff00;
     color: #2D1312;
-    transition: 0.4s;
 }
 
 /* МОДАЛЬНОЕ АВТОРИЗАЦИЯ  */
