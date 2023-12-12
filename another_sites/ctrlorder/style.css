@@ -141,6 +141,10 @@ table button {
     transition: 0.4s;
 }
 
+table button:hover {
+    background: #2d131270;
+}
+
 table,
 th,
 td {
